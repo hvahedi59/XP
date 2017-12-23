@@ -14,10 +14,10 @@ namespace CalculateApp
 
         }
 
-        public float Calculate(string param)
+        public string Calculate(string param)
         {
             System.Data.DataTable myDT = new System.Data.DataTable();
-            return (float)myDT.Compute(param, null);
+            return myDT.Compute(param, null).ToString();
         }
 
         public void ClearMemory()
