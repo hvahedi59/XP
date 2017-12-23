@@ -46,3 +46,6 @@ C:\Users\Student.A6-PC\Desktop\XP_Practice\CalculateApp\CalculateApp\bin\Microso
 C:\Users\Student.A6-PC\Desktop\XP_Practice\CalculateApp\CalculateApp\obj\Debug\CalculateApp.csprojResolveAssemblyReference.cache
 C:\Users\Student.A6-PC\Desktop\XP_Practice\CalculateApp\CalculateApp\obj\Debug\CalculateApp.dll
 C:\Users\Student.A6-PC\Desktop\XP_Practice\CalculateApp\CalculateApp\obj\Debug\CalculateApp.pdb
+C:\XP\XP\XP\CalculateApp\obj\Debug\CalculateApp.csprojResolveAssemblyReference.cache
+C:\XP\XP\XP\CalculateApp\obj\Debug\CalculateApp.dll
+C:\XP\XP\XP\CalculateApp\obj\Debug\CalculateApp.pdb
