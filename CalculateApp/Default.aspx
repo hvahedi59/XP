@@ -12,4 +12,6 @@
     <asp:Button ID="btnSaveMemory" runat="server" Text="M+" OnClick="btnSaveMemory_Click" />
     <asp:Button ID="btnClearMemory" runat="server" Text="M-" />
     <asp:Button ID="btnReadMemory" runat="server" Text="MR" />
+    <asp:Button ID="1" runat="server" Text="1" />
+
 </asp:Content>
