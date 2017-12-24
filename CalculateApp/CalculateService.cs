@@ -16,6 +16,7 @@ namespace CalculateApp
 
         public string Calculate(string param)
         {
+            if (param.Trim() == string.Empty) return "0";
             History.Add(param);
             System.Data.DataTable myDT = new System.Data.DataTable();
             return myDT.Compute(param, null).ToString();
