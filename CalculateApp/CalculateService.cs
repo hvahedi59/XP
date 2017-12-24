@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Web;
 
 namespace CalculateApp
@@ -16,17 +17,12 @@ namespace CalculateApp
 
         public string Calculate(string param)
         {
-            try
-            {
-                History.Add(param);
-                System.Data.DataTable myDT = new System.Data.DataTable();
-                return myDT.Compute(param, null).ToString();
-            }
-            catch (DivideByZeroException ex)
-            {
-                throw ex;
-            }
+            History.Add(param);
+            System.Data.DataTable myDT = new System.Data.DataTable();
+            return myDT.Compute(param, null).ToString();
         }
+
+      
 
         public void ClearMemory()
         {
