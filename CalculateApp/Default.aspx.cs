@@ -43,7 +43,7 @@ namespace CalculateApp
 
         protected void btnCalculate_Click(object sender, EventArgs e)
         {
-            txtOperation.Text= myService.Calculate(txtOperation.Text).ToString();
+            txtOperation.Text = myService.Calculate(txtOperation.Text).ToString();
         }
 
         protected void btn1_Click(object sender, EventArgs e)
@@ -103,6 +103,12 @@ namespace CalculateApp
         {
             txtOperation.Text += "0";
 
+        }
+
+        protected void btnSaveMemory_Click(object sender, EventArgs e)
+        {
+            var result = txtOperation.Text.Trim();
+            myService.SaveMemory(result);
         }
     }
 }

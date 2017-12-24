@@ -7,7 +7,7 @@ namespace CalculateApp
 {
     public class CalculateService
     {
-        static private List<float> memory = new List<float>();
+        static private List<string> memory = new List<string>();
         static private List<string> History = new List<string>();
 
         public void Clear()
@@ -30,7 +30,7 @@ namespace CalculateApp
         /// با محدودیت ذخیره یک عدد در حافظه
         /// </summary>
         /// <param name="param"></param>
-        public void SaveMemory(float param)
+        public void SaveMemory(string param)
         {
             if (memory.Count == 0)
                 memory.Add(param);
@@ -38,7 +38,7 @@ namespace CalculateApp
                 memory[0] = param;
         }
 
-        public float? ReadMemory(byte index)
+        public string ReadMemory(byte index)
         {
             if (index >= 0 && index < memory.Count)
             {
