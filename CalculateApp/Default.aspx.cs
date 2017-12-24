@@ -45,5 +45,28 @@ namespace CalculateApp
         {
             txtOperation.Text= myService.Calculate(txtOperation.Text).ToString();
         }
+
+        protected void btn1_Click(object sender, EventArgs e)
+        {
+            txtOperation.Text += "1";
+        }
+
+        protected void btn2_Click(object sender, EventArgs e)
+        {
+            txtOperation.Text += "2";
+
+        }
+
+        protected void btn3_Click(object sender, EventArgs e)
+        {
+            txtOperation.Text += "3";
+
+        }
+
+        protected void btn4_Click(object sender, EventArgs e)
+        {
+            txtOperation.Text += "4";
+
+        }
     }
 }

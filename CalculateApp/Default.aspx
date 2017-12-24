@@ -11,7 +11,10 @@
     <asp:Button ID="btnDivision" runat="server" Text="/" OnClick="btnDivision_Click" /><br />
     <asp:Button ID="btnSaveMemory" runat="server" Text="M+" OnClick="btnSaveMemory_Click" />
     <asp:Button ID="btnClearMemory" runat="server" Text="M-" />
-    <asp:Button ID="btnReadMemory" runat="server" Text="MR" />
-    <asp:Button ID="btn1" runat="server" Text="1" />
+    <asp:Button ID="btnReadMemory" runat="server" Text="MR" /><br />
+    <asp:Button ID="btn1" runat="server" Text="1" OnClick="btn1_Click1" />
+    <asp:Button ID="btn2" runat="server" Text="2" OnClick="btn2_Click" />
+    <asp:Button ID="btn3" runat="server" Text="3" OnClick="btn3_Click" />
+    <asp:Button ID="btn4" runat="server" Text="4" OnClick="btn4_Click" />
 
 </asp:Content>
