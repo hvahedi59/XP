@@ -101,7 +101,7 @@ namespace CalculateApp
 
         protected void btn0_Click(object sender, EventArgs e)
         {
-            txtOperation.Text += "0";
+            txtOperation.Text += ;
 
         }
     }
