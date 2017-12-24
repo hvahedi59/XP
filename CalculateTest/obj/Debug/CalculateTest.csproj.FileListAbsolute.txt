@@ -25,3 +25,11 @@ C:\xp\xp\CalculateTest\bin\Debug\Microsoft.AspNet.FriendlyUrls.xml
 C:\xp\xp\CalculateTest\obj\Debug\CalculateTest.csprojResolveAssemblyReference.cache
 C:\xp\xp\CalculateTest\obj\Debug\CalculateTest.dll
 C:\xp\xp\CalculateTest\obj\Debug\CalculateTest.pdb
+C:\XP\xp\CalculateTest\bin\Debug\CalculateTest.dll.config
+C:\XP\xp\CalculateTest\bin\Debug\Castle.Core.dll
+C:\XP\xp\CalculateTest\bin\Debug\Moq.dll
+C:\XP\xp\CalculateTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\XP\xp\CalculateTest\bin\Debug\Castle.Core.xml
+C:\XP\xp\CalculateTest\bin\Debug\Moq.pdb
+C:\XP\xp\CalculateTest\bin\Debug\Moq.xml
+C:\XP\xp\CalculateTest\bin\Debug\System.Threading.Tasks.Extensions.xml

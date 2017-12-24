@@ -142,3 +142,10 @@ C:\xp\xp\CalculateApp\bin\Microsoft.AspNet.FriendlyUrls.xml
 C:\xp\xp\CalculateApp\obj\Debug\CalculateApp.csprojResolveAssemblyReference.cache
 C:\xp\xp\CalculateApp\obj\Debug\CalculateApp.dll
 C:\xp\xp\CalculateApp\obj\Debug\CalculateApp.pdb
+C:\XP\xp\CalculateApp\bin\Castle.Core.dll
+C:\XP\xp\CalculateApp\bin\Moq.dll
+C:\XP\xp\CalculateApp\bin\System.Threading.Tasks.Extensions.dll
+C:\XP\xp\CalculateApp\bin\Castle.Core.xml
+C:\XP\xp\CalculateApp\bin\Moq.pdb
+C:\XP\xp\CalculateApp\bin\Moq.xml
+C:\XP\xp\CalculateApp\bin\System.Threading.Tasks.Extensions.xml

@@ -17,12 +17,23 @@ namespace CalculateApp
 
         public string Calculate(string param)
         {
-            History.Add(param);
-            System.Data.DataTable myDT = new System.Data.DataTable();
-            return myDT.Compute(param, null).ToString();
+            try
+            {
+
+                if (param.Trim() == string.Empty) return "0";
+                History.Add(param);
+                System.Data.DataTable myDT = new System.Data.DataTable();
+                return myDT.Compute(param, null).ToString();
+
+            }
+            catch (Exception)
+            {
+
+                throw new ArgumentException();
+            }
         }
 
-      
+
 
         public void ClearMemory()
         {
