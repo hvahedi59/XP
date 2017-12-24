@@ -8,14 +8,15 @@ namespace CalculateApp
     public class CalculateService
     {
         static private List<float> memory = new List<float>();
+        static private List<string> History = new List<string>();
 
         public void Clear()
         {
-
         }
 
         public string Calculate(string param)
         {
+            History.Add(param);
             System.Data.DataTable myDT = new System.Data.DataTable();
             return myDT.Compute(param, null).ToString();
         }
@@ -47,6 +48,20 @@ namespace CalculateApp
             {
                 return null;
             }
+        }
+
+        public string FetchHistory(int index)
+        {
+            if (History.Count == 0)
+                return string.Empty;
+            if (History.Count < index)
+                return string.Empty;
+            return History[index];
+        }
+
+        public int GetHistoryLength()
+        {
+            return History.Count();
         }
     }
 }
