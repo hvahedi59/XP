@@ -68,5 +68,41 @@ namespace CalculateApp
             txtOperation.Text += "4";
 
         }
+
+        protected void btn5_Click(object sender, EventArgs e)
+        {
+            txtOperation.Text += "5";
+
+        }
+
+        protected void btn6_Click(object sender, EventArgs e)
+        {
+            txtOperation.Text += "6";
+
+        }
+
+        protected void btn7_Click(object sender, EventArgs e)
+        {
+            txtOperation.Text += "7";
+
+        }
+
+        protected void btn8_Click(object sender, EventArgs e)
+        {
+            txtOperation.Text += "8";
+
+        }
+
+        protected void btn9_Click(object sender, EventArgs e)
+        {
+            txtOperation.Text += "9";
+
+        }
+
+        protected void btn0_Click(object sender, EventArgs e)
+        {
+            txtOperation.Text += "0";
+
+        }
     }
 }

@@ -16,5 +16,11 @@
     <asp:Button ID="btn2" runat="server" Text="2" OnClick="btn2_Click" />
     <asp:Button ID="btn3" runat="server" Text="3" OnClick="btn3_Click" />
     <asp:Button ID="btn4" runat="server" Text="4" OnClick="btn4_Click" />
+    <asp:Button ID="btn5" runat="server" Text="5" OnClick="btn5_Click" />
+    <asp:Button ID="btn6" runat="server" Text="6" OnClick="btn6_Click" />
+    <asp:Button ID="btn7" runat="server" Text="7" OnClick="btn7_Click" />
+    <asp:Button ID="btn8" runat="server" Text="8" OnClick="btn8_Click" />
+    <asp:Button ID="btn9" runat="server" Text="9" OnClick="btn9_Click" />
+    <asp:Button ID="btn0" runat="server" Text="0" OnClick="btn0_Click" />
 
 </asp:Content>
