@@ -149,3 +149,8 @@ C:\XP\xp\CalculateApp\bin\Castle.Core.xml
 C:\XP\xp\CalculateApp\bin\Moq.pdb
 C:\XP\xp\CalculateApp\bin\Moq.xml
 C:\XP\xp\CalculateApp\bin\System.Threading.Tasks.Extensions.xml
+C:\XP\XP\CalculateApp\bin\Default.srprofile
+C:\XP\XP\CalculateApp\bin\SpecRun.SpecFlowPlugin.dll
+C:\XP\XP\CalculateApp\bin\TechTalk.SpecFlow.dll
+C:\XP\XP\CalculateApp\bin\TechTalk.SpecRun.Common.dll
+C:\XP\XP\CalculateApp\bin\TechTalk.SpecRun.dll
