@@ -115,5 +115,10 @@ namespace CalculateApp
         {
             txtOperation.Text += ".";
         }
+
+        protected void btnSin_Click(object sender, EventArgs e)
+        {
+            txtOperation.Text = myService.Sin(Convert.ToDouble(txtOperation.Text));
+        }
     }
 }

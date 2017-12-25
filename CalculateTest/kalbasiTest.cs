@@ -85,9 +85,12 @@ namespace CalculateTest
 
         [TestMethod]
         
-        public void AddWithIgnoreNumbers()
+        public void Sin()
         {
-           
+            CalculateService calc = new CalculateService();
+            var res = calc.Sin(30);
+            Assert.AreEqual(res, "0.5");
+
             
         }
     }
