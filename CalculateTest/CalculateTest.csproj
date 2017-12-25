@@ -63,11 +63,6 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Calculate.feature.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Calculate.feature</DependentUpon>
-    </Compile>
     <Compile Include="kalbasiTest.cs" />
     <Compile Include="MoqTest3.cs" />
     <Compile Include="UnitTest1.cs" />
@@ -81,10 +76,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="Calculate.feature">
-      <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>Calculate.feature.cs</LastGenOutput>
-    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <Choose>

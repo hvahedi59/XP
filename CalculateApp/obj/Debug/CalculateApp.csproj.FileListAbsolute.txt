@@ -139,7 +139,6 @@ C:\xp\xp\CalculateApp\bin\System.Web.Optimization.xml
 C:\xp\xp\CalculateApp\bin\Antlr3.Runtime.pdb
 C:\xp\xp\CalculateApp\bin\Newtonsoft.Json.xml
 C:\xp\xp\CalculateApp\bin\Microsoft.AspNet.FriendlyUrls.xml
-C:\xp\xp\CalculateApp\obj\Debug\CalculateApp.csprojResolveAssemblyReference.cache
 C:\xp\xp\CalculateApp\obj\Debug\CalculateApp.dll
 C:\xp\xp\CalculateApp\obj\Debug\CalculateApp.pdb
 C:\XP\xp\CalculateApp\bin\Castle.Core.dll
@@ -149,7 +148,6 @@ C:\XP\xp\CalculateApp\bin\Castle.Core.xml
 C:\XP\xp\CalculateApp\bin\Moq.pdb
 C:\XP\xp\CalculateApp\bin\Moq.xml
 C:\XP\xp\CalculateApp\bin\System.Threading.Tasks.Extensions.xml
-C:\XP\XP\CalculateApp\bin\Default.srprofile
 C:\XP\XP\CalculateApp\bin\SpecRun.SpecFlowPlugin.dll
 C:\XP\XP\CalculateApp\bin\TechTalk.SpecFlow.dll
 C:\XP\XP\CalculateApp\bin\TechTalk.SpecRun.Common.dll
