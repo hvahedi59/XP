@@ -11,15 +11,15 @@ namespace CalculateTest
     [TestClass]
    public class kalbasiTest
     {
-        [TestMethod]
-        public void AddWithEmptryString()
-        {
-            kalbasi kalbasiAdd = new kalbasi();
-            var result= kalbasiAdd.Add("");
+        //[TestMethod]
+        //public void AddWithEmptryString()
+        //{
+        //    kalbasi kalbasiAdd = new kalbasi();
+        //    var result= kalbasiAdd.Add("");
 
-            Assert.AreEqual(result, 0);
+        //    Assert.AreEqual(result, 0);
 
-        }
+        //}
 
 
         [TestMethod]
