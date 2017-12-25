@@ -1,0 +1,10 @@
+version: 1.0.{build}
+build:
+  publish_wap: true
+  verbosity: minimal
+
+deploy:
+provider: Environment
+ name:[Team2]
+ on: 
+branch: master
