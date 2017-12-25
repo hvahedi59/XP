@@ -8,7 +8,9 @@
     <asp:Button ID="btnPlus" runat="server" Text="+" OnClick="btnPlus_Click" />
     <asp:Button ID="btnSubstract" runat="server" Text="-" OnClick="btnSubstract_Click" />
     <asp:Button ID="btnMultiple" runat="server" Text="*" OnClick="btnMultiple_Click" />
-    <asp:Button ID="btnDivision" runat="server" Text="/" OnClick="btnDivision_Click" /><br />
+    <asp:Button ID="btnDivision" runat="server" Text="/" OnClick="btnDivision_Click" />
+    <asp:Button ID="btnPower" runat="server" Text="^" OnClick="btnPower_Click"  />
+    <br />
     <asp:Button ID="btnSaveMemory" runat="server" Text="M+" OnClick="btnSaveMemory_Click" />
     <asp:Button ID="btnClearMemory" runat="server" Text="M-" />
     <asp:Button ID="btnReadMemory" runat="server" Text="MR" /><br />

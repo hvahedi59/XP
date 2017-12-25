@@ -107,8 +107,12 @@ namespace CalculateApp
 
         protected void btnSaveMemory_Click(object sender, EventArgs e)
         {
-            var result = txtOperation.Text.Trim();
-            myService.SaveMemory(result);
+            myService.SaveMemory(txtOperation.Text.Trim());
+        }
+
+        protected void btnPower_Click(object sender, EventArgs e)
+        {
+            myService.Calculate2(txtOperation.Text.Trim());
         }
     }
 }

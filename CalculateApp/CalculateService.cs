@@ -33,7 +33,36 @@ namespace CalculateApp
             }
         }
 
+        public string Calculate2(string param)
+        {
+            try
+            {
+                if (param.Trim() == string.Empty) return "0";
 
+                if (param.Contains("^"))
+                {
+                    var list = param.Split('^');
+                    if (list.Count() == 2)
+                    {
+                        var num1 = this.Calculate2(list[0]);
+                        var num2 = this.Calculate2(list[1]);
+
+                        var result = Math.Pow(Convert.ToDouble(num1), Convert.ToDouble(num2));
+                        return result.ToString();
+                    }
+                }
+
+                History.Add(param);
+                System.Data.DataTable myDT = new System.Data.DataTable();
+                return myDT.Compute(param, null).ToString();
+
+            }
+            catch (Exception)
+            {
+
+                throw new ArgumentException();
+            }
+        }
 
         public void ClearMemory()
         {
