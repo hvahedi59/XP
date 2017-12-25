@@ -33,3 +33,5 @@ C:\XP\xp\CalculateTest\bin\Debug\Microsoft.AspNet.FriendlyUrls.xml
 C:\XP\xp\CalculateTest\obj\Debug\CalculateTest.csprojResolveAssemblyReference.cache
 C:\XP\xp\CalculateTest\obj\Debug\CalculateTest.dll
 C:\XP\xp\CalculateTest\obj\Debug\CalculateTest.pdb
+C:\XP\xp\CalculateTest\bin\Debug\Newtonsoft.Json.dll
+C:\XP\xp\CalculateTest\bin\Debug\Newtonsoft.Json.xml
