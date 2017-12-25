@@ -22,6 +22,15 @@ namespace CalculateApp {
         protected global::System.Web.UI.WebControls.TextBox txtOperation;
         
         /// <summary>
+        /// btnSin control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnSin;
+        
+        /// <summary>
         /// btnCalculate control.
         /// </summary>
         /// <remarks>
@@ -103,31 +112,31 @@ namespace CalculateApp {
         protected global::System.Web.UI.WebControls.Button btnReadMemory;
         
         /// <summary>
-        /// btn1 control.
+        /// btn7 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn1;
+        protected global::System.Web.UI.WebControls.Button btn7;
         
         /// <summary>
-        /// btn2 control.
+        /// btn8 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn2;
+        protected global::System.Web.UI.WebControls.Button btn8;
         
         /// <summary>
-        /// btn3 control.
+        /// btn9 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn3;
+        protected global::System.Web.UI.WebControls.Button btn9;
         
         /// <summary>
         /// btn4 control.
@@ -157,31 +166,31 @@ namespace CalculateApp {
         protected global::System.Web.UI.WebControls.Button btn6;
         
         /// <summary>
-        /// btn7 control.
+        /// btn1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn7;
+        protected global::System.Web.UI.WebControls.Button btn1;
         
         /// <summary>
-        /// btn8 control.
+        /// btn2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn8;
+        protected global::System.Web.UI.WebControls.Button btn2;
         
         /// <summary>
-        /// btn9 control.
+        /// btn3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn9;
+        protected global::System.Web.UI.WebControls.Button btn3;
         
         /// <summary>
         /// btn0 control.
@@ -200,14 +209,5 @@ namespace CalculateApp {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnDot;
-        
-        /// <summary>
-        /// btnSin control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSin;
     }
 }
