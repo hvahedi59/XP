@@ -152,4 +152,3 @@ C:\XP\xp\CalculateApp\bin\Antlr3.Runtime.pdb
 C:\XP\xp\CalculateApp\bin\Microsoft.AspNet.FriendlyUrls.xml
 C:\XP\xp\CalculateApp\obj\Debug\CalculateApp.dll
 C:\XP\xp\CalculateApp\obj\Debug\CalculateApp.pdb
-C:\XP\xp\CalculateApp\obj\Debug\CalculateApp.csprojResolveAssemblyReference.cache
