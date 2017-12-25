@@ -110,5 +110,10 @@ namespace CalculateApp
             var result = txtOperation.Text.Trim();
             myService.SaveMemory(result);
         }
+
+        protected void btnDot_Click(object sender, EventArgs e)
+        {
+            txtOperation.Text += ".";
+        }
     }
 }

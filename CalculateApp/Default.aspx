@@ -22,5 +22,6 @@
     <asp:Button ID="btn8" runat="server" Text="8" OnClick="btn8_Click" />
     <asp:Button ID="btn9" runat="server" Text="9" OnClick="btn9_Click" />
     <asp:Button ID="btn0" runat="server" Text="0" OnClick="btn0_Click" />
+     <asp:Button ID="btnDot" runat="server" Text="." OnClick="btnDot_Click" />
 
 </asp:Content>
