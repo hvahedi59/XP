@@ -106,5 +106,10 @@ namespace CalculateApp
         {
             return History.Count();
         }
+
+        public string Sin(double input)
+        {
+            return Math.Round(Math.Sin(Math.PI * input / 180),2).ToString();
+        }
     }
 }

@@ -1,10 +1,11 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="CalculateApp._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <asp:TextBox runat="server" ID="txtOperation"> </asp:TextBox>
-    <asp:Button ID="btnCalculate" runat="server" Text="=" OnClick="btnCalculate_Click" />
-    <asp:Button ID="btnClear" runat="server" Text="C" OnClick="btnClear_Click" />
     <br />
+    
+    <asp:TextBox runat="server" ID="txtOperation"> </asp:TextBox>
+    <br />
+
     <asp:Button ID="btnPlus" runat="server" Text="+" OnClick="btnPlus_Click" />
     <asp:Button ID="btnSubstract" runat="server" Text="-" OnClick="btnSubstract_Click" />
     <asp:Button ID="btnMultiple" runat="server" Text="*" OnClick="btnMultiple_Click" />
@@ -24,5 +25,13 @@
     <asp:Button ID="btn8" runat="server" Text="8" OnClick="btn8_Click" />
     <asp:Button ID="btn9" runat="server" Text="9" OnClick="btn9_Click" />
     <asp:Button ID="btn0" runat="server" Text="0" OnClick="btn0_Click" />
+
+     <asp:Button ID="btnSin"  Width ="40" runat="server" Text="Sin" OnClick="btnSin_Click"  />
+    <asp:Button ID="btnCalculate" Width ="40" runat="server" Text="=" OnClick="btnCalculate_Click" />
+    <asp:Button ID="btnClear" Width ="40" runat="server" Text="C" OnClick="btnClear_Click" />
+    <br /> 
+     <asp:Button ID="btnDot"  Width ="40" runat="server" Text="." OnClick="btnDot_Click" />
+    <br />
+   
 
 </asp:Content>

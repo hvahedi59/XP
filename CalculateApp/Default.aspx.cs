@@ -114,5 +114,15 @@ namespace CalculateApp
         {
             myService.Calculate2(txtOperation.Text.Trim());
         }
+
+        protected void btnDot_Click(object sender, EventArgs e)
+        {
+            txtOperation.Text += ".";
+        }
+
+        protected void btnSin_Click(object sender, EventArgs e)
+        {
+            txtOperation.Text = myService.Sin(Convert.ToDouble(txtOperation.Text));
+        }
     }
 }
