@@ -112,7 +112,8 @@ namespace CalculateApp
 
         protected void btnPower_Click(object sender, EventArgs e)
         {
-            myService.Calculate2(txtOperation.Text.Trim());
+            var result = myService.Calculate2(txtOperation.Text.Trim());
+            txtOperation.Text = result;
         }
 
         protected void btnDot_Click(object sender, EventArgs e)
